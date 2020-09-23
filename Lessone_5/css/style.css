@@ -1,0 +1,177 @@
+
+@font-face {
+    font-family: 'FuturaFuturisC';
+    src: url("../fonts/FuturaFuturisC.woff2") format('woff2'),
+        url("../fonts/FuturaFuturisC.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'FuturaFuturisC';
+    src: url("../fonts/FuturaFuturisC-Italic.woff2") format('woff2'),
+        url("../fonts/FuturaFuturisC-Italic.woff") format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FuturaFuturisLightC';
+    src: url("../fonts/FuturaFuturisLightC.woff2") format('woff2'),
+        url("../fonts/FuturaFuturisLightC.woff") format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa Script';
+    src: url("../fonts/NexaScript-Regular.woff2") format('woff2'),
+        url("../fonts/NexaScript-Regular.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	font-family: "FuturaFuturisLightC";
+	height: 100%;
+	font-size: 14px;
+	line-height: 1;
+}
+/* -------------- */
+.title {
+	 font-family: "Nexa Script";
+	font-size: 70px;
+	text-align: center;
+	color: green;
+}
+nav {
+	text-align: center;
+	font-family: "FuturaFuturisC";
+font-style: italic;
+}
+.arabika {
+	display: inline-block;
+	background-color: hotpink;
+	font-size: 20px;
+	
+
+}
+.robusta {
+	font-size: 300;
+	display: inline-block;
+	background-color: lawngreen;
+	font-size: 20px;		
+}
+.other {
+	display: inline-block;
+	background-color: lightseagreen;
+	font-size: 20px;
+}
+ .text {	
+	 font-style: italic;
+	 text-shadow: palevioletred 2px 2px 3px;
+	 font-family: "FuturaFuturisLightC";
+	 font-size: 20px;
+	 text-decoration: underline;
+	font-family: monospace;
+	letter-spacing: 10px ;
+ }
+.images {
+	 text-align: center;
+	font-size: 0;
+}
+.about__text {
+	display: inline-block;
+	background-color: lightslategray;
+	max-width: 700px;
+	padding: 20px;
+	margin: 50px;
+}
+.content {
+	text-align: center;
+}
+.text__about {
+text-align: center;
+display: inline-block;
+background-color: rgb(230, 161, 184);
+padding: 20px;
+margin: 0px auto;
+max-width: 700px;
+height: 200px;
+overflow: scroll;
+}
+h2 {
+	 font-family: "Nexa Script";
+	 font-size: 30px;
+	 text-align: center;
+	 color: rgb(245, 8, 8);
+}
+.images__text {
+float: left;
+font-size: 20px;
+letter-spacing: 10px;
+}
+.text__images {
+	font-size: 17px;
+	font-style: italic;
+	font-weight: 600;
+}
+.title__text {
+	text-align: center;
+	font-family: "Nexa Script";
+	 font-size: 50px;
+	 font-weight: 800;
+	 color: rgba(255, 0, 0, 0.144);
+	 padding: 20px;
+	 margin: 40px;
+}
+li {
+	color: rgb(10, 51, 175);
+	font-size: 20px;
+	font-weight: 600;
+}
+.footer {
+	text-align: center;
+	 font-size: 40px;
+	 text-decoration: underline;
+	 font-weight: 900;
+	 padding: 20px;
+	 margin: 50px;
+}
